@@ -5,7 +5,7 @@
 Roteiro
 ```
     mkdir DecolaTechAvanade
-    DecolaTechAvanade
+    cd DecolaTechAvanade
     git init
     git branch -M main
     git remote add origin https://github.com/viniciussineza/Decola-Tech-Avanade.git
