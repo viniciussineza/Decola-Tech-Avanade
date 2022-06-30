@@ -26,20 +26,20 @@ ___
     - Hoisting     == atribuir um valor a uma variável antes de declara-lá (somente em var)
     - Redeclaração == *Somente com var* 
         ex.:    
-                `var nome = primeiro_valor;
-                 var nome = novo_valor;`
+                ```var nome = primeiro_valor;
+                 var nome = novo_valor;```
     - Reatribuição == Sem o uso da palavra reservarda
         ex.:    
-                `let nome = primeiro_valor;
-                 nome = novo_valor;`
+                ```let nome = primeiro_valor;
+                 nome = novo_valor;```
     
-    [Exemplo de variáveis e Escopos](#)
-    `node variaveis.js
+    <a href="https://github.com/viniciussineza/Decola-Tech-Avanade/blob/main/variaveis.js" alt="exemplo de variáveis e escopos">Exemplo de variáveis e Escopos</a>
+    ```node variaveis.js
 
     11
     22
     11
-    2`
+    2```
 
 
 ### const
@@ -55,7 +55,7 @@ ___
 
 ### Strings
 
-    `let firstName = "Vinicius";
+    ```let firstName = "Vinicius";
      typeof firstName \\String
 
      let lastName = "Sineza";
@@ -63,5 +63,5 @@ ___
      let fullName = `Nome completo é ${firstName} ${lastName}`; \\ template string
 
      let exemplo = new String("texto");
-     typeof exemplo \\Object`
+     typeof exemplo \\Object```
 
